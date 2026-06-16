@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooted & Restless</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">R&R</span>
+      <ul class="nav-links">
+        <li><a href="#posts">Writing</a></li>
+        <li><a href="#categories">Topics</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO / MASTHEAD -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">A weekly deep dive into whatever I'm living</div>
+      <div class="masthead-wrap">
+        <svg class="vine-left" viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M60 155 C50 130, 20 120, 30 95 C40 70, 70 65, 55 40 C42 18, 15 15, 25 2" stroke="#7A9E7E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="22" cy="78" rx="10" ry="6" transform="rotate(-30 22 78)" fill="#7A9E7E" opacity="0.5"/>
+          <ellipse cx="45" cy="48" rx="8" ry="5" transform="rotate(20 45 48)" fill="#7A9E7E" opacity="0.4"/>
+          <ellipse cx="38" cy="110" rx="9" ry="5" transform="rotate(-15 38 110)" fill="#7A9E7E" opacity="0.45"/>
+          <ellipse cx="58" cy="130" rx="7" ry="4" transform="rotate(10 58 130)" fill="#7A9E7E" opacity="0.35"/>
+        </svg>
+        <h1 class="masthead">Rooted<em>&</em>Restless</h1>
+        <svg class="vine-right" viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 155 C30 130, 60 120, 50 95 C40 70, 10 65, 25 40 C38 18, 65 15, 55 2" stroke="#7A9E7E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="58" cy="78" rx="10" ry="6" transform="rotate(30 58 78)" fill="#7A9E7E" opacity="0.5"/>
+          <ellipse cx="35" cy="48" rx="8" ry="5" transform="rotate(-20 35 48)" fill="#7A9E7E" opacity="0.4"/>
+          <ellipse cx="42" cy="110" rx="9" ry="5" transform="rotate(15 42 110)" fill="#7A9E7E" opacity="0.45"/>
+          <ellipse cx="22" cy="130" rx="7" ry="4" transform="rotate(-10 22 130)" fill="#7A9E7E" opacity="0.35"/>
+        </svg>
+      </div>
+      <p class="hero-sub">Product. Yoga. Dogs. Music. Food. Books. Travel. Life.<br>One thing, once a week, all the way in.</p>
+      <div class="hero-divider"></div>
+    </div>
+  </header>
+
+  <!-- CATEGORIES STRIP -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="cat-row">
+        <button class="cat-btn active" data-cat="all">All</button>
+        <button class="cat-btn" data-cat="product">Product & Tech</button>
+        <button class="cat-btn" data-cat="yoga">Yoga & Wellness</button>
+        <button class="cat-btn" data-cat="food">Food & Nutrition</button>
+        <button class="cat-btn" data-cat="music">Music</button>
+        <button class="cat-btn" data-cat="books">Books</button>
+        <button class="cat-btn" data-cat="travel">Travel</button>
+        <button class="cat-btn" data-cat="dogs">Dogs</button>
+        <button class="cat-btn" data-cat="life">Life</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTS GRID -->
+  <main class="posts-section" id="posts">
+    <div class="container">
+      <div class="posts-grid" id="postsGrid">
+
+        <article class="post-card featured" data-cat="yoga">
+          <div class="post-meta">
+            <span class="post-tag tag-yoga">Yoga & Wellness</span>
+            <span class="post-date">Week 01 · Jun 2025</span>
+          </div>
+          <h2 class="post-title">Why I keep coming back to the mat even when I don't want to</h2>
+          <p class="post-excerpt">It's not discipline. It's not routine. It's something quieter and harder to explain — the way the mat always tells the truth.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="product">
+          <div class="post-meta">
+            <span class="post-tag tag-product">Product & Tech</span>
+            <span class="post-date">Week 02</span>
+          </div>
+          <h2 class="post-title">What 16 years of working taught me that no PM course ever will</h2>
+          <p class="post-excerpt">The frameworks are useful. The scar tissue is irreplaceable.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="food">
+          <div class="post-meta">
+            <span class="post-tag tag-food">Food & Nutrition</span>
+            <span class="post-date">Week 03</span>
+          </div>
+          <h2 class="post-title">The quiet power of eating the same thing every day</h2>
+          <p class="post-excerpt">On simplicity, digestion, and why decision fatigue is most brutal at breakfast.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="music">
+          <div class="post-meta">
+            <span class="post-tag tag-music">Music</span>
+            <span class="post-date">Week 04</span>
+          </div>
+          <h2 class="post-title">The album I've had on repeat for three years and still haven't figured out</h2>
+          <p class="post-excerpt">Some records reward patience. This one just keeps moving the finish line.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="travel">
+          <div class="post-meta">
+            <span class="post-tag tag-travel">Travel</span>
+            <span class="post-date">Week 05</span>
+          </div>
+          <h2 class="post-title">On hiking alone and what the trail asks of you</h2>
+          <p class="post-excerpt">There's a version of yourself that only exists when no one else is watching.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="books">
+          <div class="post-meta">
+            <span class="post-tag tag-books">Books</span>
+            <span class="post-date">Week 06</span>
+          </div>
+          <h2 class="post-title">The book that made me want to be a better thinker</h2>
+          <p class="post-excerpt">Not smarter. Not faster. Just more honest with myself about what I actually know.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="dogs">
+          <div class="post-meta">
+            <span class="post-tag tag-dogs">Dogs</span>
+            <span class="post-date">Week 07</span>
+          </div>
+          <h2 class="post-title">Everything I know about presence, I learned from a dog</h2>
+          <p class="post-excerpt">They don't ruminate. They don't plan. They are just here, completely.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+        <article class="post-card" data-cat="life">
+          <div class="post-meta">
+            <span class="post-tag tag-life">Life</span>
+            <span class="post-date">Week 08</span>
+          </div>
+          <h2 class="post-title">Starting this blog: why consistency is the whole point</h2>
+          <p class="post-excerpt">I'm not writing for an audience yet. I'm writing to prove to myself that I can show up, week after week, and actually mean it.</p>
+          <a href="#" class="post-link">Read →</a>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ABOUT STRIP -->
+  <section class="about-strip" id="about">
+    <div class="container about-inner">
+      <div class="about-glyph" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="30" stroke="#7A9E7E" stroke-width="1" opacity="0.4"/>
+          <path d="M40 10 C40 10, 55 30, 40 40 C25 50, 40 70, 40 70" stroke="#C4622D" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <path d="M15 32 C15 32, 30 35, 40 40 C50 45, 65 48, 65 48" stroke="#7A9E7E" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6"/>
+        </svg>
+      </div>
+      <div class="about-text">
+        <h3 class="about-title">Hi, I'm Remy.</h3>
+        <p>I live in Bangalore, practice yoga, hike when I can, and spend my working life thinking about products and people. This blog is my weekly deep dive — into whatever has my attention that week. Product management one week, a recipe the next, a trail, a book, a song. The goal is consistency, curiosity, and something that's entirely mine.</p>
+        <p class="about-tagline">Grounded enough to stay. Restless enough to keep going.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">Rooted & Restless</span>
+      <span class="footer-copy">One deep dive a week. Always.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
